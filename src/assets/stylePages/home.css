@@ -1,0 +1,224 @@
+/*HOME UTENTE*/
+.home{
+    background: var(--gradient-orange) ;
+    min-height: 100vh ;
+}
+.main{
+    display: flex;
+    color: white;
+}
+.left-home{
+    width: 60%;
+    margin: 10em 3rem 0 10em;
+}
+.left-home > h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+}
+.left-home > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-home{
+    width: 39%;
+}
+.right-home > img{
+    width: 100%;
+    margin-left: -50px;
+}
+.search-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 22px 15px 22px 3px;
+    gap: 25px;
+    background: #EAE9E9;
+    box-shadow: 0px 24px 54px rgba(41, 52, 121, 0.26);
+    border-radius: 106px;
+    margin-top: 90px;  
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form-group > input{
+    background-color: #EAE9E9;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding: 6px 10px;
+}
+.form-group:nth-child(1){
+    border-right:  1px solid #C4C4C4 ;
+}
+.form-group > input:focus{
+    border: none;
+}
+.search-button{
+    font-size: 11px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    background: #F75F24;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    text-decoration: none;
+}
+.search-button > span {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 3.5px 4.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*HOME AZIENDA*/
+.home-azienda{
+    background: linear-gradient(180deg, #293479 0%, #1B0C4B 100%);
+    min-height: 100vh;
+}
+.login-button{
+    font-size: 11px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 10px;
+    background: #F75F24;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    margin-top: 50px;
+    text-decoration: none;
+    width: 108px;
+}
+.login-button > span {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 3.5px 4.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1920px) {
+    .form-group{
+        width: 35%;
+    }
+    .search-container{
+        padding: 22px 25px 22px 10px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .right-home > img{
+        margin-left: 0px;
+    }
+    .left-home{
+        width: 95%;
+        margin: 6em 2em 0 0.5em;
+    }
+    .left-home > h1{
+        font-size: 39px;
+        line-height: 46px;
+    }
+    .left-home > p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .home{
+        width: 100%;
+    }
+    .form-group{
+        width: 45%;
+    }
+    .search-container{
+        width: 100%;
+        padding: 22px 10px 22px 3px;
+        gap: 15px;
+        margin-top: 90px;  
+        position: relative;
+    }
+    .form-group > input{
+        padding: 3px 5px;
+    }
+    .search-button{
+        position: absolute;
+        top: 70px;
+        right: 130px;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px) {
+    .main{
+        flex-direction: column;
+    }
+    .right-home > img{
+        margin-left: 0px;
+    }
+    .left-home{
+        width: 95%;
+        margin: 6em 2em 0 0.5em;
+    }
+    .left-home > h1{
+        font-size: 39px;
+        line-height: 46px;
+    }
+    .left-home > p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .home{
+        width: 100%;
+    }
+    .form-group{
+        width: 30%;
+    }
+    .search-container{
+        width: 100%;
+        padding: 22px 20px 22px 0px;
+        gap: 15px;
+        margin-top: 90px;  
+        position: relative;
+    }
+    .form-group > input{
+        padding: 3px 5px;
+    }
+    .search-button{
+        margin-right: 6em;
+    }
+    
+}
+

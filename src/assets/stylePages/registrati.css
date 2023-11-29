@@ -1,0 +1,95 @@
+/*ACCEDI CANDIDATO*/
+.registrati{
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.dark-overlay{
+        min-height: 100vh;
+        background-color: #FAFAFA;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+.auth-text > h2{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #C4C4C4;
+    font-weight: 700;
+}
+.auth-text > p {
+    font-size: 22px;
+    color: #BFBEBE;
+    font-weight: 300;
+    text-align: center;
+}
+.check-ok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+}
+.check-ok label, .check-ok input {
+    color: #BFBEBE;
+    font-size: 14px;
+}
+.registrati-input-container{
+    display: flex;
+    justify-content: center;
+}
+.popup{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: calc(50% - 927px/2 - 0.5px);
+    top: 180px;
+    z-index: 100;
+    align-items: center;
+    padding: 25px;
+    gap: 40px;
+    background: #FFFFFF;
+    border: 0.2px solid #BFBEBE;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 23px;
+    width: 60%;
+    height: 60%;
+}
+.popup > img {
+    width: 10%;
+}
+.popup-text > h3{
+    color:  #F75F24;
+    font-size: 28px;
+    text-align: center;
+}
+.popup > a:last-of-type{
+    color: #F75F24;
+
+}
+
+@media screen and (max-width: 600px) {
+    .popup{
+        left: 5px;
+        width: 85%;
+    }
+    .popup > img {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px){
+    .popup{
+        left: 2.5em;
+        width: 85%;
+    }
+    .popup > img {
+        width: 30%;
+    }
+    .registrati-input-container{
+        width: 90%;
+    }
+}

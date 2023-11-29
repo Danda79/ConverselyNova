@@ -1,0 +1,37 @@
+.popup-premium{
+    width: 80%;
+    height: 80%;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.popup-premium > button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    margin: 30px 0;
+}
+.cancel-sub{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--colorProva);
+    color: white;
+    margin: 30px 0;
+    position: absolute;
+    top: -20px;
+    right: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+    .cancel-sub{
+        top: 40px;
+        z-index: 10;
+    }
+}

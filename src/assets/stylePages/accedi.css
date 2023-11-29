@@ -1,0 +1,21 @@
+/*ACCEDI CANDIDATO*/
+.accedi{
+    min-height: 100vh;
+    background-color: #FAFAFA;
+}
+.auth-text > h2{
+    font-size: 40px;
+    color: #C4C4C4;
+    font-weight: 700;
+}
+.auth-text > p {
+    font-size: 22px;
+    color: #BFBEBE;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*ACCEDI AZIENDA*/
+.main-accedi-azienda{
+    margin-top: 100px;
+}

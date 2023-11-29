@@ -1,0 +1,249 @@
+/*HEADER CANDIDATO*/
+.header{
+    background: #F75F24;
+    box-shadow: 0px 4px 64px #EB291C;
+    height: 110px;
+    display: flex;
+    justify-content: center !important;
+    font-family: 'Comfortaa', cursive;
+    z-index: 100;
+}
+.left-header > img{
+    width: 18%;
+    margin-left: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.right-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 120px;
+    align-items: center;
+}
+.reg-button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 38px;
+    text-decoration: none;
+}
+.azienda-button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 45px;
+    text-decoration: none;
+}
+.acc-button{
+    display: flex;
+    margin: 0 70px 0 40px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.acc-button > span{
+    margin-right: 5px;
+}
+.icon-home{
+    width: 20px;
+    height: auto;
+    margin-right: 30px;
+}
+/*HEADER AZIENDA*/
+.header-azienda{
+    background: #293479;
+    box-shadow: 0px 4px 64px #1B0C4B;
+    height: 110px;
+    display: flex;
+    justify-content: center !important;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*HEADER WHITE CANDIDATO*/
+.header-white{
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 64px rgba(0, 0, 0, 0.182);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Comfortaa', cursive;
+    z-index: 100;
+}
+.left-header-white > img{
+    width: 42%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.right-header-white{
+    margin-top: 0px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 120px;
+    align-items: center;
+}
+.left-header-white-azienda{
+    display: flex;
+    gap: 30px ;
+    justify-content: center;
+    align-items: center;
+}
+.link-header-azienda{
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.link-header-azienda:active{
+    border-bottom: 1px solid  #F75F24;
+}
+.left-header-white-azienda > img{
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.right-header-white-azienda{
+    margin-top: 0px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-button{
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .left-header > img{
+        width: 88%;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .right-header{
+        margin-right: 20px;
+    }
+    .reg-button{
+        margin: 0 10px 0 20px;
+        padding: 4px 19px;
+    }
+    .azienda-button{
+        padding: 4px 25px;
+    }
+    .acc-button{
+        display: none;
+    }
+    .acc-button > span{
+        margin-right: 5px;
+    }
+    .icon-home{
+        width: 20px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .mobile-head-az a{
+        font-size: 12px;
+    }
+
+    /*WHITE CANDIDATO*/
+    .left-header-white > img{
+        width: 62%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .right-header-white{
+        margin-top: 0px;
+        margin-right: 20px;
+    }
+
+    /*AZIENDA WHITE LOGIN*/
+    .left-header-white-azienda > img{
+        display: none;
+    }
+    .left-header-white-azienda{
+        gap: 10px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .right-header-white-azienda{
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .header-button{
+        margin-top: 0;
+        padding: 4px 6px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px){
+    .left-header > img{
+        width: 70%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .right-header{
+        margin-right: 20px;
+    }
+    .reg-button{
+        margin: 0 10px 0 20px;
+        padding: 8px 30px;
+    }
+    .azienda-button{
+        padding: 8px 30px;
+    }
+    .acc-button > span{
+        margin-right: 5px;
+    }
+    .icon-home{
+        width: 30px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    /*WHITE CANDIDATO*/
+    .left-header-white > img{
+        width: 62%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .right-header-white{
+        margin-top: 0px;
+        margin-right: 20px;
+    }
+
+    /*AZIENDA WHITE LOGIN*/
+    .left-header-white-azienda > img{
+        display: none;
+    }
+    .left-header-white-azienda{
+        gap: 10px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .right-header-white-azienda{
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .header-button{
+        margin-top: 0;
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+}
