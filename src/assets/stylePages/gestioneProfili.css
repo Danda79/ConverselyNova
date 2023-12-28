@@ -5,6 +5,7 @@
     width: 95%;
     height: 70vh;
     gap: 2rem;
+    font-family: 'Comfortaa', cursive;
 }
 .left-gestione-profili{
     width: 25%;
@@ -20,6 +21,7 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     cursor: pointer;
+    font-family: 'Comfortaa', cursive;
 }
 .right-gestione-profili{
     width: 65%;
@@ -65,10 +67,12 @@
     height: 60%;
     position: absolute;
     padding: 20px;
+    font-family: 'Comfortaa', cursive;
 }
 .select-users > select {
     padding: 10px 20px;
     z-index: 10;
+    font-family: 'Comfortaa', cursive;
 }
 
 @media screen and (max-width: 600px){

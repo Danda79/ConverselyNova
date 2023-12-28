@@ -133,7 +133,7 @@ const GestioneProfili = () => {
         </div>
         </div>
         <div className='right-gestione-profili' style={{position: 'relative'}}>
-        <CustomInput handleSelectWork={handleSelectWork} value={moment(selectedDate).format('YYYY-MM-GG')} />
+        <CustomInput handleSelectWork={handleSelectWork} value={/*moment(selectedDate).format('YYYY-MM-GG')*/'Colloquia'} />
             <Calendar 
                 onChange={(date) => {
                   handleDateChange(date);
@@ -164,8 +164,8 @@ const GestioneProfili = () => {
 function CustomInput({ value, handleSelectWork }) {
   return (
     <>
-    <h3>Clicca sul bottone per scegliere l'utente da colloquiare in questa data</h3>
-    <button style={{marginTop: '50px'}} className="custom-input" onClick={handleSelectWork}>
+    <h3 style={{color: '#C4C4C4'}}>Clicca sul bottone per scegliere l'utente da colloquiare in questa data</h3>
+    <button style={{marginTop: '50px', fontFamily: 'Comfortaa',}} className="custom-input" onClick={handleSelectWork}>
       {value}
     </button>
     </>
